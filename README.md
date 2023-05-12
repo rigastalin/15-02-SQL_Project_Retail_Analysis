@@ -5,7 +5,7 @@ Retail analysis is the process of analyzing data related to retail sales and cus
 
 ## Chapter I
 
-![RetailAnalyticsPromtInKadinskiy2_1](misc/images/retailanal.PNG)
+![RetailAnalyticsPromtInKadinskiy2_1](misc/images/retailanal.png)
 
 ## Introduction
 
