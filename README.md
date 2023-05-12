@@ -1,53 +1,16 @@
-# PostgreSQL Project "RetailAnalytics
+# PostgreSQL Project "RetailAnalytics"
 
-Retail analytics data upload, its simple analysis, statistics, customer segmentation and creation of personal offers.
-
-## Contents
-
-1. [Chapter I](#chapter-i) \
-   1.1. [Introduction](#introduction)
-2. [Chapter II](#chapter-ii) \
-   2.1. [Information](#information)
-3. [Chapter III](#chapter-iii) \
-   3.1. [Part 1. Creating a database](#part-1-creating-a-database)  
-   3.2. [Part 2. Creating views](#part-2-creating-views)  
-   3.3. [Part 3. Role model](#part-3-role-model)  
-   3.4. [Part 4. Forming personal offers aimed at the growth of the average check](#part-4-forming-personal-offers-aimed-at-the-growth-of-the-average-check)  
-   3.5. [Part 5. Forming personal offers aimed at increasing the frequency of visits](#part-5-forming-personal-offers-aimed-at-increasing-the-frequency-of-visits)  
-   3.6. [Part 6. Forming personal offers aimed at cross-selling](#part-6-forming-personal-offers-aimed-at-cross-selling)
-4. [Chapter IV](#chapter-iv)
+Retail analysis is the process of analyzing data related to retail sales and customer behavior in order to gain insights that can inform business decisions. It involves collecting and examining data such as sales figures, customer demographics, market trends, and competitor activity. By analyzing this data, retailers can identify patterns and trends, understand customer behavior and preferences, and make informed decisions about pricing, product assortment, marketing strategies, and more.
 
 
 ## Chapter I
 
-![SQL3_RetailAnalytics_v1.0](misc/images/SQL3.PNG)
-
-Chuck was holding the already slightly crumpled financial statements for the past period and trying to understand the numbers written there. He had been putting off processing, analyzing, and reconciling them for too long. And the paperwork seemed to be growing more and more every day, until finally the number of papers exceeded the critical value, when one can no longer deal with it alone. Chuck was sitting alone at the office, helplessly playing with the sheets in his hands, flipping through the pages as if hoping that this would help reduce their number, trying to figure out what kind of airplanes they could be made into. He wondered if he could make a paper boeing out of that much. He even googled instructions on how to do it.
-
-But that didn't solve the problem, and the statements with numbers were still in front of him. \
-`-` "Seems like it's high time to start using my SQL knowledge,'' Chuck thought to himself. - "If I can automate the processing and analysis, I won't need much help from anyone. Remembering SQL wasn't a waste of time after all.”
-
-So Chuck only had a few things to do: formalize the data structure, the processing algorithms, and put it all into code. The key is not to get distracted again somewhere in the process...
+![RetailAnalyticsPromtInKadinskiy2_1](misc/images/retailanal.PNG)
 
 ## Introduction
 
-In this project you will put into practice your knowledge of SQL.
-You will need to create a database with knowledge of retailers' customers, and write the views and procedures needed to create personal offers.
+In this project I will put my knowledge of SQL into practice by creating a database with information on our retailers' customers, and writing the necessary views and procedures to generate personalized offers.
 
-
-## Chapter II
-
-## General Rules
-
-- Please make sure you are using the latest version of PostgreSQL.
-- That is completely OK if you are using IDE to write a source code (aka SQL script).
-- To be assessed your solution must be in your GIT repository.
-- Your solutions will be evaluated by your peers.
-- You should not leave in your directory any other file except sql scripts or csv files. It is recommended that you modify your `.gitignore` to avoid accidents.
-- Do you have a question? Ask your neighbor on the right. Otherwise, try with your neighbor on the left.
-- Your reference manual: peers / Internet / Google.
-- And may the SQL-Force be with you!
-- Absolutely everything can be presented in SQL! Let’s start and have fun!
 
 ## Logical view of database model
 
@@ -184,8 +147,6 @@ A more detailed description for filling in these views will be given below.
 | Minimum size of the discount           | Group_Minimum_Discount      | Arabic numeral, decimal          | Minimum size of the group discount for the customer                                                                    |
 | Average discount                       | Group_Average_Discount      | Arabic numeral, decimal          | Average size of the group discount for the customer                                                                                         |
 
-
-## Chapter III
 
 ## Part 1. Creating a database
 
@@ -360,6 +321,3 @@ Function output:
 
 Chuck had been staring at the screen for hours and couldn't figure it out. A certain "AID" department disappears from the statements as fast as appears, literally in the blink of an eye.
 All expenses are written off for the development of smart vacuum cleaners, something only the household department has been doing for a long time. Yes, there was a new SP-21 model released at the same time, but still what is this: an innocent typo in the name or an opportune moment? The question that will haunt Chuck in the near future...
-
-
-💡 [Tap here](https://forms.yandex.ru/cloud/641820bf5d2a060d5d1b2b40/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
